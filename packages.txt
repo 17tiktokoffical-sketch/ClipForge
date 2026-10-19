@@ -1,3 +1,0 @@
-# System packages installed via apt on Hugging Face Spaces (and locally: sudo apt install).
-ffmpeg
-fonts-dejavu-core
