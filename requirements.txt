@@ -1,0 +1,10 @@
+# ClipForge — runtime dependencies (all free / open-source)
+streamlit               # web UI (Streamlit Community Cloud)
+yt-dlp                  # YouTube download + subtitles
+faster-whisper          # transcription fallback (tiny model, CPU)
+opencv-python-headless==4.12.0.88  # 5.x builds lack objdetect/Haar data; pin 4.x
+numpy                   # audio energy analysis
+
+# System dependencies (install separately):
+#   - ffmpeg  (with libx264 + libass):  sudo apt install ffmpeg
+#   - a bold sans font, e.g.:           sudo apt install fonts-dejavu-core
